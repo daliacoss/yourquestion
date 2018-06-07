@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "PressStart", monospace;
+  font-size: 9pt;
+  margin-top: 0;
+}
+a {
+  color: #FF00aa;
+}
+#game {
+    width: 1280px;
+    height: 720px;
+    /*border: 6px dashed white;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+#outer {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+#middle {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+@font-face {
+  font-family: "PressStart";
+  src: url("assets/PressStart2P.ttf") format("truetype");
+}
